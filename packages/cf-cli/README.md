@@ -1,4 +1,4 @@
-# Sri CLI
+# CF CLI
 
 A CLI tool to install UI components from the `@repo/ui` package.
 
