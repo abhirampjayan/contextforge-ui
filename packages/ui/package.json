@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
+    "./mbui": "./src/mbui.tsx",
     "./*": "./src/*.tsx"
   },
   "scripts": {

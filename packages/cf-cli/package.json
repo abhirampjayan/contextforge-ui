@@ -1,0 +1,41 @@
+{
+  "name": "cf-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to download UI components",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cf-cli": "./index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^22.14.0",
+    "typescript": "5.8.2"
+  },
+  "keywords": [
+    "cli",
+    "ui",
+    "components",
+    "react",
+    "download",
+    "install"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/sri-cli/issues"
+  },
+  "homepage": "https://github.com/yourusername/sri-cli#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
